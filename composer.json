@@ -1,0 +1,33 @@
+{
+  "name": "bydev/server",
+  "description": "bydev 라이선스 API 판매자 서버 도우미 — 웹훅 서명 검증 · access_token · licenseToken 검증",
+  "type": "library",
+  "license": ["MIT", "Apache-2.0"],
+  "homepage": "https://developedby.dev/sell/docs",
+  "support": {
+    "source": "https://github.com/developedby-dev/server-php",
+    "docs": "https://developedby.dev/sell/docs/sdks"
+  },
+  "authors": [
+    {
+      "name": "한비트 주식회사",
+      "homepage": "https://developedby.dev"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "ext-json": "*",
+    "ext-hash": "*"
+  },
+  "suggest": {
+    "ext-sodium": "Ed25519 서명 확인 — 없으면 ext-openssl(PHP 8.4 이상)로",
+    "ext-openssl": "Ed25519 서명 확인(PHP 8.4 이상) · HTTPS",
+    "ext-curl": "JWKS 받기 — 없으면 PHP 스트림으로"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bydev\\": "src/"
+    },
+    "files": ["src/Generated.php"]
+  }
+}
