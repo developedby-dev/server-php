@@ -1,6 +1,6 @@
 {
   "name": "bydev/server",
-  "description": "bydev 라이선스 API 판매자 서버 도우미 — 웹훅 서명 검증 · access_token · licenseToken 검증",
+  "description": "데브 라이선스 API 판매자 서버 도우미 — 웹훅 서명 검증 · access_token · licenseToken 검증",
   "type": "library",
   "license": ["MIT", "Apache-2.0"],
   "homepage": "https://developedby.dev/sell/docs",

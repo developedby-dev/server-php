@@ -10,7 +10,7 @@ namespace Bydev;
 /** 이 패키지가 따르는 동작 명세 판. */
 final class Spec
 {
-    public const VERSION = '1.1.0';
+    public const VERSION = '1.1.1';
 }
 
 /** 에러 코드 — API(contracts ERROR_CODES)와 SDK(명세 3.3). 분기는 이 값으로 한다. */
@@ -58,7 +58,7 @@ final class Codes
 /** 규칙 (sdks/spec/rules.json). */
 final class Rules
 {
-    public const SPEC_VERSION = '1.1.0';
+    public const SPEC_VERSION = '1.1.1';
     public const API = 'v1';
     public const USER_AGENT_LANGUAGES = ['typescript', 'dotnet', 'swift', 'kotlin', 'python', 'go', 'rust', 'c'];
     public const USER_AGENT_PATTERN = '^bydev-(typescript|dotnet|swift|kotlin|python|go|rust|c)/[0-9]+\\.[0-9]+\\.[0-9]+(-[0-9A-Za-z.-]+)?( .+)?$';
