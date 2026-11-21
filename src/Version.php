@@ -7,5 +7,5 @@ namespace Bydev;
 /** 이 패키지의 판. */
 final class Version
 {
-    public const SDK = '0.1.0';
+    public const SDK = '1.0.0';
 }
